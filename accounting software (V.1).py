@@ -11,7 +11,7 @@ def create_account():
     balance = 0
     a_num = 2373648 * 10 + s_num
     rec = str(a_num) + "," + str(name) + "," + str(phone) + "," + str(balance) + "\n"
-    print("******* ACCOUNT SUCCESSFULLY CREATED *******")
+    print("******* THE ACCOUNT IS SUCCESSFULLY CREATED *******")
     print("ACCOUNT NUMBER : ", a_num)
     print("NAME : ", name)
     print("CONTACT NUMBER : ", phone)
